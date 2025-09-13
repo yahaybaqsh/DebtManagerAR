@@ -3,6 +3,9 @@
 ![Arabic RTL Support](https://img.shields.io/badge/RTL-Arabic-blue?style=for-the-badge&logo=google-chrome)
 ![Offline First](https://img.shields.io/badge/Offline-First-green?style=for-the-badge)
 ![No Backend](https://img.shields.io/badge/No%20Backend-%E2%9C%85-brightgreen?style=for-the-badge)
+<img width="1158" height="780" alt="لقطة الشاشة 2025-09-13 112613" src="https://github.com/user-attachments/assets/1d8d31c0-1157-45db-8536-70206f0799c8" />
+<img width="1077" height="627" alt="لقطة الشاشة 2025-09-13 112544" src="https://github.com/user-attachments/assets/20f726d4-59cb-42a0-999c-87e8c81b066f" />
+<img width="1072" height="852" alt="لقطة الشاشة 2025-09-13 112409" src="https://github.com/user-attachments/assets/8ffbd5c8-4e4f-4ed9-b606-9e5afe37f682" />
 
 A complete, offline-first, Arabic-RTL web application for managing personal and business debts with intuitive UI, data visualization, reporting, and export capabilities.
 
@@ -37,4 +40,4 @@ No server required. All data is stored locally in the browser using `localStorag
 
 1. **Clone or download** the repository:
    ```bash
-   git clone https://github.com/yourusername/DebtManagerAR.git
+   git clone https://github.com/yahaybaqsh/DebtManagerAR.git
