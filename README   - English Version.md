@@ -1,6 +1,8 @@
 # DebtManagerAR — Full Debt Management System (Arabic Interface)
 
 ![Arabic RTL Support](https://img.shields.io/badge/RTL-Arabic-blue?style=for-the-badge&logo=google-chrome)
+![Offline First](https://img.shields.io/badge/Offline-First-green?style=for-the-badge)
+![No Backend](https://img.shields.io/badge/No%20Backend-%E2%9C%85-brightgreen?style=for-the-badge)
 
 A complete, offline-first, Arabic-RTL web application for managing personal and business debts with intuitive UI, data visualization, reporting, and export capabilities.
 
@@ -12,75 +14,27 @@ No server required. All data is stored locally in the browser using `localStorag
 
 ## ✨ Key Features
 
-- **Arabic RTL Interface**: Fully localized for Arabic readers with proper text direction.
+- **Arabic RTL Interface**: Fully localized for Arabic readers with proper text direction, date formats, and number rendering.
 - **Dashboard Analytics**: Real-time statistics on total, pending, paid, and overdue debts.
-- **Interactive Charts**: Visualize debt distribution by category and status using Chart.js.
-- **Add/Edit/Delete Debts**: Full CRUD operations with form validation.
-- **Search & Filter**: Find debts by name or filter by status (pending/paid/overdue).
-- **Export Data**: Download your debt records as JSON file.
-- **Clear All Data**: Safely reset the entire database with confirmation.
-- **Reminder System**: Send customizable reminder messages via email or copy-paste.
-- **Settings Panel**: Set default currency, enable notification reminders, and adjust alert days.
-- **Responsive Design**: Works seamlessly on mobile and desktop.
+- **Interactive Charts**: Visualize debt distribution by category and status using Chart.js (pie & bar charts).
+- **Add/Edit/Delete Debts**: Full CRUD operations with form validation and confirmation modals.
+- **Search & Filter**: Instantly find debts by name or filter by status (Pending/Paid/Overdue).
+- **Export Data**: Download your entire debt database as a `.json` file for backup or migration.
+- **Clear All Data**: Safely reset the entire database with a confirmation dialog to prevent accidental loss.
+- **Reminder System**: Generate customizable reminder messages (copy-paste ready). Future versions will support email/SMS.
+- **Settings Panel**: Set default currency, enable/disable notification reminders, and adjust alert days before due date.
+- **Responsive Design**: Works seamlessly on mobile phones, tablets, and desktop browsers.
 
 ## 🛠️ Technology Stack
 
-- HTML5 | CSS3 (with RTL support)
-- JavaScript (ES6+)
-- Chart.js for data visualization
-- localStorage for persistent data storage
-- No backend or external dependencies
+- **Frontend**: HTML5, CSS3 (with full RTL support), JavaScript (ES6+)
+- **Visualization**: Chart.js (v4+)
+- **Storage**: `localStorage` (browser-native, persistent)
+- **No Backend**: Zero dependencies, no servers, no APIs
+- **Compatibility**: Chrome, Firefox, Edge, Safari, Android & iOS browsers
 
 ## 📥 How to Use
 
-1. Clone or download the repository.
-2. Open `index.html` in any modern browser (Chrome, Firefox, Edge, Safari).
-3. Start adding debts immediately — no login or setup needed!
-4. Use the sidebar navigation to switch between Dashboard, Add Debt, List, Reports, and Settings.
-
-> 💡 Tip: For best experience, use in full-screen mode on desktop or mobile.
-
-## 📊 Sample Screenshots
-
-| Dashboard | Debt List | Reports |
-|----------|-----------|---------|
-| ![Dashboard](<img width="1158" height="780" alt="لقطة الشاشة 2025-09-13 112613" src="https://github.com/user-attachments/assets/ab479af0-0a25-4764-815d-5c2ca60e5deb" />
-screenshots/dashboard.png) | ![Debt List](<img width="1077" height="627" alt="لقطة الشاشة 2025-09-13 112544" src="https://github.com/user-attachments/assets/8e3a82e2-8101-4cff-a575-0e018a7b683a" />
-screenshots/list.png) | ![Reports](screenshots/reports.png) |
-
-*(Note: Add actual screenshots in `/screenshots` folder after deployment)*
-
-## 🔐 Data Security
-
-All data is stored **locally** in your browser’s `localStorage`. No information is sent to any server. You own your data completely.
-
-## 🔄 Export & Backup
-
-Click **"تصدير البيانات" (Export Data)** to download your entire debt list as a `.json` file.  
-To restore: Simply open the app, then drag and drop the JSON file (future enhancement).
-
-## 🚀 Future Enhancements (Roadmap)
-
-- [ ] Cloud sync via Firebase or IndexedDB
-- [ ] Email/SMS reminder automation
-- [ ] Print reports
-- [ ] Multi-user support
-- [ ] Dark mode toggle
-- [ ] Mobile app version (PWA)
-
-## 🤝 Contributing
-<img width="1072" height="852" alt="لقطة الشاشة 2025-09-13 112409" src="https://github.com/user-attachments/assets/449b3a8b-5733-4cf3-ac26-c95a9a41ab45" />
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest features
-- Improve translations
-- Optimize performance
-
-Please open an issue or submit a pull request.
-
-## 📜 License
-
-MIT © 2025 [yahyabaqsh]
-
----
+1. **Clone or download** the repository:
+   ```bash
+   git clone https://github.com/yourusername/DebtManagerAR.git
