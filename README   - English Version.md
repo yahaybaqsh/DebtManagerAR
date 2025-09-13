@@ -44,7 +44,8 @@ No server required. All data is stored locally in the browser using `localStorag
 
 | Dashboard | Debt List | Reports |
 |----------|-----------|---------|
-| ![Dashboard](screenshots/dashboard.png) | ![Debt List](screenshots/list.png) | ![Reports](screenshots/reports.png) |
+| ![Dashboard](<img width="1158" height="780" alt="لقطة الشاشة 2025-09-13 112613" src="https://github.com/user-attachments/assets/ab479af0-0a25-4764-815d-5c2ca60e5deb" />
+screenshots/dashboard.png) | ![Debt List](screenshots/list.png) | ![Reports](screenshots/reports.png) |
 
 *(Note: Add actual screenshots in `/screenshots` folder after deployment)*
 
