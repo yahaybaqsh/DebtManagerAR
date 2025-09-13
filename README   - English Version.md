@@ -45,7 +45,8 @@ No server required. All data is stored locally in the browser using `localStorag
 | Dashboard | Debt List | Reports |
 |----------|-----------|---------|
 | ![Dashboard](<img width="1158" height="780" alt="لقطة الشاشة 2025-09-13 112613" src="https://github.com/user-attachments/assets/ab479af0-0a25-4764-815d-5c2ca60e5deb" />
-screenshots/dashboard.png) | ![Debt List](screenshots/list.png) | ![Reports](screenshots/reports.png) |
+screenshots/dashboard.png) | ![Debt List](<img width="1077" height="627" alt="لقطة الشاشة 2025-09-13 112544" src="https://github.com/user-attachments/assets/8e3a82e2-8101-4cff-a575-0e018a7b683a" />
+screenshots/list.png) | ![Reports](screenshots/reports.png) |
 
 *(Note: Add actual screenshots in `/screenshots` folder after deployment)*
 
@@ -68,6 +69,7 @@ To restore: Simply open the app, then drag and drop the JSON file (future enhanc
 - [ ] Mobile app version (PWA)
 
 ## 🤝 Contributing
+<img width="1072" height="852" alt="لقطة الشاشة 2025-09-13 112409" src="https://github.com/user-attachments/assets/449b3a8b-5733-4cf3-ac26-c95a9a41ab45" />
 
 Contributions are welcome! Feel free to:
 - Report bugs
@@ -79,6 +81,6 @@ Please open an issue or submit a pull request.
 
 ## 📜 License
 
-MIT © 2025 [Your Name]
+MIT © 2025 [yahyabaqsh]
 
 ---
